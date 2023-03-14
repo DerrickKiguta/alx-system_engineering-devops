@@ -1,2 +1,2 @@
 #!/bin/bash
-shopt -s globstar; echo $(find ./**/ -type d -not -path '*/\.*' | wc -l)
+find .vim/ -maxdepth 1 -type d | wc -l
