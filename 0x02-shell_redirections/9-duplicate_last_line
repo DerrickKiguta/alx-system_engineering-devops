@@ -1,0 +1,2 @@
+#!/bin/bash
+{ readarray -t LINES < iacta; echo "${LINES[-1]}" >> iacta; }
